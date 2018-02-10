@@ -11,7 +11,7 @@ body {
   /* general */
   .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 980px;
     margin: 0 auto;
     clear: both;
   }
@@ -199,4 +199,29 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+  }
+
+  @media screen and (max-width: 980px) {
+      .clear{
+        width: 100%;
+      }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+      .sidebar{
+        width: 100%;
+        max-width: 768px;
+        clear: both;
+      }
+  }
+  
+  @media screen and (max-width: 640px) {
+      .clear{
+        width: 100%;
+      }
+
+      .nav{
+        clear: both;
+      }
   }
