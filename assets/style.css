@@ -205,6 +205,9 @@ body {
       .clear{
         width: 100%;
       }
+      .work{
+        clear: both;
+      }
     
   }
   
@@ -213,7 +216,8 @@ body {
         width: 100%;
         max-width: 768px;
         clear: both;
-      }
+      } 
+
   }
   
   @media screen and (max-width: 640px) {
@@ -223,5 +227,12 @@ body {
 
       .nav{
         clear: both;
+      } 
+
+      .main-container{
+        clear: both;
       }
+
   }
+
+  
